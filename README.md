@@ -2,7 +2,7 @@
  
 1.	Install GIt, cURL, Docker and Docker compose (https://hyperledger-fabric.readthedocs.io/zh_CN/latest/prereqs.html).
 2.	Install Fabric V2.2 (https://hyperledger-fabric.readthedocs.io/en/latest/install.html) and Node.js (https://github.com/nvm-sh/nvm#installation).
-3.	Enter the corresponding folder “covid”
+3.	Enter the corresponding folder “Crowdtrac”
 4.	Start the Fabric network:
 	```setup
 	bash ./network-starter.sh
@@ -19,7 +19,7 @@
 6.	Install the smart contract to the channel for another node:
 	Open a new shell window
 	```setup
-	cd covid/organization/center/
+	cd Crowdtrac/organization/center/
 	source center.sh 
 	peer lifecycle chaincode package cp.tar.gz --lang node --path ./contract --label cp_0
 	peer lifecycle chaincode install cp.tar.gz  //The command will return the PACKAGE_ID, which is used in the next step.
@@ -35,19 +35,19 @@
 8.	Create a user in “division” node:
 	Open the shell window of “division”
 	```setup
-	cd covid/organization/division/application
+	cd Crowdtrac/organization/division/application
 	npm install
 	node addToWallet.js
 	```
 
 9.	Run the alert history webpage:
 	```setup
-	cd covid/organization/division/application
+	cd Crowdtrac/organization/division/application
 	export FLASK_APP=views.py
 	flask run --host=0.0.0.0
 	```
 10.	Run the administrative control webpage:
 	```setup
-	cd covid/organization/division/application
+	cd Crowdtrac/organization/division/application
 	streamlit run POTENTIAL_INFECTION_ALERT.py
 	```
