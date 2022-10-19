@@ -8,9 +8,9 @@ Indoor air quality is an important parameter for the protection of occupants in 
 
 ## 2. Online demo
 
-#### Administrative interface: [http://47.254.152.209:8501](http://47.254.152.209:8501)
+#### Adminstration console: [http://47.254.152.209:8501](http://47.254.152.209:8501)
 
-#### Alert historical messages: [http://47.254.152.209:5000](http://47.254.152.209:5000)
+#### Historical alert messages: [http://47.254.152.209:5000](http://47.254.152.209:5000)
 
 ## 3. Installation
 
