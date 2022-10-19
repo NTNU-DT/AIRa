@@ -6,7 +6,7 @@
 3.	Enter the corresponding folder “Crowdtrac”
 4.	Start the Fabric network:
 	```setup
-	bash ./network-starter.sh
+	bash organization/network-starter.sh
 	```
 5.	Install the smart contract to the channel:
 	```setup
