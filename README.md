@@ -1,5 +1,5 @@
 # Crowdtrac
-##Instructions
+## Instructions
 
 1.	Install GIt, cURL, Docker and Docker compose (https://hyperledger-fabric.readthedocs.io/zh_CN/latest/prereqs.html).
 2.	Install Fabric V2.2 (https://hyperledger-fabric.readthedocs.io/en/latest/install.html) and Node.js (https://github.com/nvm-sh/nvm#installation).
