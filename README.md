@@ -1,7 +1,7 @@
 # AIRa
 
 ## Introduction
-This is the original implementation of AIRa, a blockchain-based alert system.
+This is the original implementation of __AIRa__, a blockchain-based alert system.
 This repository consists of the blockchain system, the alert history webpage, and the administrative control webpage.
 
 #### Demo of the alert history webpage:http://47.254.152.209:5000/
