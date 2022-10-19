@@ -1,17 +1,15 @@
 # AIRa
 
-## Introduction
+## 1. Introduction
 This is the original implementation of __AIRa__, a blockchain-based alert system.
 This repository consists of the blockchain system, the alert history webpage, and the administrative control webpage.
 
-#### Demo of the alert history webpage:http://47.254.152.209:5000/
+## 2. Online demo
 
-#### Demo of the administrative control webpage:http://47.254.152.209:8501/
+#### Administrative interface: [http://47.254.152.209:8501/](http://47.254.152.209:8501/)
+#### Alert historical messages: [http://47.254.152.209:5000](http://47.254.152.209:5000)
 
-
-
-
-## Instructions
+## 3. Installation
 
 1.	Install GIt, cURL, Docker and Docker compose (https://hyperledger-fabric.readthedocs.io/zh_CN/latest/prereqs.html).
 2.	Install Fabric V2.2 (https://hyperledger-fabric.readthedocs.io/en/latest/install.html) and Node.js (https://github.com/nvm-sh/nvm#installation).
@@ -64,3 +62,5 @@ This repository consists of the blockchain system, the alert history webpage, an
 	cd AIRa/organization/division/application
 	streamlit run POTENTIAL_INFECTION_ALERT.py
 	```
+
+## 4. Publications
