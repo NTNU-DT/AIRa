@@ -1,8 +1,8 @@
 # Crowdtrac
 
 ## Introduction
-This is the original implementation of Crowdtrac in the following paper: [**Automated assessments of infection risks for decision-making using a blockchain-based alert system (CrowdTrac): a case study in a representative building 
-**]. This repository consists of the blockchain system, the alert history webpage, and the administrative control webpage.
+This is the original implementation of Crowdtrac in the following paper: [*Automated assessments of infection risks for decision-making using a blockchain-based alert system (CrowdTrac): a case study in a representative building 
+*]. This repository consists of the blockchain system, the alert history webpage, and the administrative control webpage.
 
 #### Demo of the alert history webpage:http://47.254.152.209:5000/
 
