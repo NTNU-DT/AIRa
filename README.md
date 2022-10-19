@@ -1,7 +1,7 @@
-# Crowdtrac
+# AIRa
 
 ## Introduction
-This is the original implementation of Crowdtrac in the following paper: __[Automated assessments of infection risks for decision-making using a blockchain-based alert system (CrowdTrac): a case study in a representative building]__. 
+This is the original implementation of AIRa in the following paper: __[Automated assessments of infection risks for decision-making using a blockchain-based alert system (AIRa): a case study in a representative building]__. 
 This repository consists of the blockchain system, the alert history webpage, and the administrative control webpage.
 
 #### Demo of the alert history webpage:http://47.254.152.209:5000/
@@ -15,7 +15,7 @@ This repository consists of the blockchain system, the alert history webpage, an
 
 1.	Install GIt, cURL, Docker and Docker compose (https://hyperledger-fabric.readthedocs.io/zh_CN/latest/prereqs.html).
 2.	Install Fabric V2.2 (https://hyperledger-fabric.readthedocs.io/en/latest/install.html) and Node.js (https://github.com/nvm-sh/nvm#installation).
-3.	Enter the corresponding folder “Crowdtrac”
+3.	Enter the corresponding folder “AIRa”
 4.	Start the Fabric network:
 	```setup
 	bash organization/network-starter.sh
@@ -32,7 +32,7 @@ This repository consists of the blockchain system, the alert history webpage, an
 6.	Install the smart contract to the channel for another node:
 	Open a new shell window
 	```setup
-	cd Crowdtrac/organization/center/
+	cd AIRa/organization/center/
 	source center.sh 
 	peer lifecycle chaincode package cp.tar.gz --lang node --path ./contract --label cp_0
 	peer lifecycle chaincode install cp.tar.gz  //The command will return the PACKAGE_ID, which is used in the next step.
@@ -48,19 +48,19 @@ This repository consists of the blockchain system, the alert history webpage, an
 8.	Create a user in “division” node:
 	Open the shell window of “division”
 	```setup
-	cd Crowdtrac/organization/division/application
+	cd AIRa/organization/division/application
 	npm install
 	node addToWallet.js
 	```
 
 9.	Run the alert history webpage:
 	```setup
-	cd Crowdtrac/organization/division/application
+	cd AIRa/organization/division/application
 	export FLASK_APP=views.py
 	flask run --host=0.0.0.0
 	```
 10.	Run the administrative control webpage:
 	```setup
-	cd Crowdtrac/organization/division/application
+	cd AIRa/organization/division/application
 	streamlit run POTENTIAL_INFECTION_ALERT.py
 	```
