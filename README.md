@@ -2,13 +2,13 @@
 
 ## 1. Introduction
 
-Indoor air quality is an important parameter for the protection of occupants in an indoor environment. AIRa is an automated infection risk assessment tool for the indoor air quality management of buildings. AIRa was built on the open-source blockchain technology [Hyperledger](https://www.hyperledger.org/), which integrates the state-of-the-art infection risk assessment methods, [Wells-Riley](https://en.wikipedia.org/wiki/Wells-Riley_model), for estimating potential risks of virus spread. It can detect access the risk in near real time and send alert messages to the public and building managers.
+Indoor air quality is an important parameter for the protection of occupants in an indoor environment. AIRa is an automated infection risk assessment tool for the indoor air quality management of buildings. AIRa was built on the open-source blockchain technology, [Hyperledger](https://www.hyperledger.org/), which integrates the state-of-the-art infection risk assessment methods, [Wells-Riley](https://en.wikipedia.org/wiki/Wells-Riley_model), for estimating potential risks of virus spread. It can detect access the risk in near real time and send alert messages to the public and building managers.
 
 
 
 ## 2. Online demo
 
-#### Administrative interface: [http://47.254.152.209:8501/](http://47.254.152.209:8501)
+#### Administrative interface: [http://47.254.152.209:8501](http://47.254.152.209:8501)
 
 #### Alert historical messages: [http://47.254.152.209:5000](http://47.254.152.209:5000)
 
