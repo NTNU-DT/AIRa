@@ -1,7 +1,7 @@
 # AIRa
 
 ## Introduction
-This is the original implementation of AIRa in the following paper: __[Automated assessments of infection risks for decision-making using a blockchain-based alert system (AIRa): a case study in a representative building]__. 
+This is the original implementation of AIRa, a blockchain-based alert system.
 This repository consists of the blockchain system, the alert history webpage, and the administrative control webpage.
 
 #### Demo of the alert history webpage:http://47.254.152.209:5000/
