@@ -1,4 +1,4 @@
-# AIRa
+# AIRa - An automated infection risk assessment platfrom for an indoor environment
 
 ## 1. Introduction
 This is the original implementation of __AIRa__, a blockchain-based alert system.
